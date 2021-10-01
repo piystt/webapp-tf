@@ -82,7 +82,7 @@ resource "null_resource" "link_monitoring" {
       inst_key          = azurerm_application_insights.appi.instrumentation_key
       conn_str          = azurerm_application_insights.appi.connection_string      
       rg_name           = data.azurerm_resource_group.wsdevops.name
-      web_app_name      = tyip1234
+      web_app_name      = tyip1234-sp
     }
   }
 }
